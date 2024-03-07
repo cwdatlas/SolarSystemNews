@@ -20,7 +20,7 @@ var reset = "\033[0m"
 
 /*
 Author: Aidan Scott
-Main() launches the application
+Main() launches the application by starting a loop for using input repeatedly in selecting a 'article repo' and specific article to read
 */
 func main() {
 	fmt.Println(cyan,
@@ -119,6 +119,9 @@ func main() {
 
 }
 
+/*
+Reader uses bufio to scan and format user input
+*/
 func reader() string {
 	// Initiate user input reader
 	reader := bufio.NewReader(os.Stdin)
