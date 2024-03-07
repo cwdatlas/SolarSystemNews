@@ -1,6 +1,8 @@
 ### Solar System Article Viewer
 This little Go program provides a user with a handful of fictional
-articles. There is a small story apart of the game.
+articles. There is a small story apart of the game. 
+The game includes coloring which shows on specific software like GoLand,
+so you might see strange strings at the start of lines.
 
 ### Installation
 You will need Go to run this program
