@@ -25,12 +25,13 @@ Main() launches the application
 func main() {
 	fmt.Println(cyan,
 		"You are one of the many tens of thousands of lone Asteroid miners out in a distant section\n",
-		"of the belt. You grew up on the Martian colonies, but you didnt like the couped up life of the domned habitats.\n"+
+		"of the belt. You grew up on the Martian colonies, but you didnt like the couped up life of the domed habitats.\n"+
 			"You wanted to be an explorer like the people who founded your home colony, so you decided to use your savings\n"+
 			"and move out into the belt where you can explore and profit heavily from doing what you love...\n",
-		"At least that is what you thought, before you were again coupled up in a little metal can with a bunch of\n"+
-			"'Space Bumpkins' on the coms and local news channel. Your ship is an old throwaway leftover with the internet ingress\n"+
-			"point ripped out by its previous owners to make an extra buck. You are now stuck bored between mining missions.\n",
+		"At least that is what you thought, before you were again couped up in a little metal can with a bunch of\n"+
+			"'Space Bumpkins' on the coms and local news channel. Your ship is an old throwaway Hanwa with the internet ingress\n"+
+			"point ripped out by its previous owners to make an extra buck. You had to switch to the emergency minimum connection ingress.\n"+
+			"You are now stuck bored between farming missions.\n",
 		"Wonder what the 'Space Bumpkins' are up to, so you log onto your dialup-like internet and search buffered news articles...\n",
 		"------------------------------------------------------------------------------------------------------------------------------")
 	fmt.Println(reset, "Do you want to check local or system wide space news?")
