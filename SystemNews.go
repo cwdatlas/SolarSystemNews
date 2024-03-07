@@ -1,5 +1,9 @@
 package main
 
+/*
+@Author Aidan Scott
+Stores article data
+*/
 var systemArticles = map[string][2]string{
 	"venus": {"New Life on Venus",
 		"From: Venus immigration agency, 10/8/2224 Solar Standard Time\n" +
@@ -17,6 +21,7 @@ var systemArticles = map[string][2]string{
 			"making Ganymede the core of the "},
 	"work": {"Work on the Moon; What you need to know", "Body"}}
 
+// returns map of articles
 func getSystemNews() map[string][2]string {
 	return systemArticles
 }
